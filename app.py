@@ -25,5 +25,5 @@ def hello_world():
             conversation.append(chats("bot","Hi, how may I help you?"))
     return render_template('home.html',conversation=conversation)
 
-if __name__ == "__main__":
-    app.run(debug=False,port=8000)
+# if __name__ == "__main__":
+#     app.run(debug=False,port=8000)
