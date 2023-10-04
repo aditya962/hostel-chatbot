@@ -1,0 +1,1 @@
+web: gunicorn chat_bot_hackathon.app --log-file -
